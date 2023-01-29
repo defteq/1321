@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Main {
+    static int num1;
+    static int num2;
+    static char operation;
+    static int result;
+
+    public static int getInt() {
+        System.out.println("Введите чмсло:");
+        Scanner scanner = new Scanner(System.in);
+        String input = scanner.nextLine();
+        int num = Integer.parseInt(input.trim());
+        return num;
+    }
+    public static int operation1(int num1,) {
+
+    }
+    
+
+
+    public static void main(String[] args) {
+        int num1 = getInt();
+        int num2 = getInt();
+        calc(num1, num2, operation)
+        System.out.println(result);
+    }
+}
+
